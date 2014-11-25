@@ -35,6 +35,8 @@ public class WebServiceApache
           // print entity var to screen as string
           if (entity != null) {
             System.out.println(EntityUtils.toString(entity));
+          } else {
+        	  System.out.println( "entity is null");
           }
      
         } catch (Exception e) {
